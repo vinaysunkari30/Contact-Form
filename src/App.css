@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Lobster&family=Pacifico&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.app-container{
+  background-image: url('https://media.istockphoto.com/id/1395547140/vector/robot-operator-communicates-with-clients-on-various-issues-contact-us-form-template-chatbot.jpg?s=612x612&w=0&k=20&c=ypT_x6SXjIL0X5Jh_CY31DfnqV6tUgmPy-7GhxiQ-Cg=');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  object-fit: cover;
+  background-color: rgb(249, 222, 251);
+}
+.contact-card {
+  background-color: rgb(249, 222, 251);
+  height: 96vh;
+  width: 380px;
+  border: 2px solid rgb(164, 125, 164);
+  border-radius: 15px; 
+  margin-right: 38px;
+  box-shadow: 0px 5px 10px 0px rgba(139, 139, 139);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+.heading{
+  color: purple;
+  font-family: "Roboto";
+  font-size: 35px;
+  text-decoration: underline;
+  text-decoration-color: rgb(238, 171, 243);;
+  font-weight: 500;
+  margin-top: -20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.phone-icon{
+  color: purple;
+  font-size: 40px;
+  margin-left: 130px;
+  margin-top: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.label{
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Roboto";
+  color: purple;
+  margin-bottom: 0px;
+  margin-left: 3px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input-bar {
+  height: 40px;
+  border: 0px;
+  border-radius: 10px;
+  outline: purple;
+  width: 300px;
+  padding-left: 15px;
+  font-weight: 400;
+  margin-bottom: 5px;
 }
-
-.App-link {
-  color: #61dafb;
+.submit-btn{
+  align-self: center;
+  border: 0px;
+  height: 45px;
+  width: 110px;
+  color: rgb(249, 222, 251);
+  background-color: purple;
+  border-radius: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto";
+  transition: all 0.2s ease-in-out;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submit-btn:active{
+  transform: translateY(3px);
+  box-shadow: -4px 10px 5px -5px rgb(182, 182, 182);
+  background-color: rgb(249, 222, 251);
+  color: purple;
+  font-weight: bold;
+}
+.require-text{
+  color: red;
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 400;
+  margin-bottom: -7px;
+  margin-top: -8px;
+}
+.optional {
+  font-size: 15px;
 }
